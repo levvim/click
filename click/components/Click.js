@@ -41,16 +41,10 @@ class Click extends React.Component {
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'stretch',
-        padding: 20,
         backgroundColor: '#121212',
       }}>
         <View style={{
           flex: 3,
-          flexDirection: 'column',
-          alignSelf: 'stretch',
-          alignItems: 'stretch',
-          justifyContent: 'center',
-          backgroundColor: '#CF6679',
         }}> 
           <ClickNeg />
         </View>
@@ -59,18 +53,14 @@ class Click extends React.Component {
           justifyContent: 'center',
           flexDirection: 'column',
           alignItems: 'stretch',
-          marginHorizontal: 0,
-          marginVertical: 0,
         }}>
           <View style={{
             flex: 1,
-            alignItems: 'center',
-            backgroundColor: '#121212',
         }}> 
           <ClickMaj />
         </View>
           <View style={{
-            flex: 1,
+            flex: 4,
             justifyContent: 'center',
             alignItems: 'center',
             backgroundColor: '#121212',
@@ -82,18 +72,13 @@ class Click extends React.Component {
           </View>
           <View style={{
             flex: 1,
-            alignItems: 'center',
-            backgroundColor: '#121212',
           }}> 
             <ClickReset />
           </View>
         </View>
         <View style={{
           flex: 3,
-          alignItems: 'center',
-          justifyContent: 'center',
-          backgroundColor: '#03DAC6',
-        }}>
+        }}> 
             <ClickPos />
         </View>
       </View>
