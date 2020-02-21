@@ -37,7 +37,7 @@ class ClickNeg extends React.Component {
             flex:1,
             justifyContent: 'center',
             alignItems: 'center',
-            underlayColor:'#121212'
+            underlayColor:'none',
           }}
           onPress={() => this.handleNeg()}
           color='transparent'>

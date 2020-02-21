@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   stretch: {
     width: 50,
     height: 50,
-    resizeMode: 'stretch'
+    resizeMode: 'center'
   },
 });
 
